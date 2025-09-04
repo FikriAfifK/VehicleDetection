@@ -86,10 +86,7 @@ frontend/
 1. Go to backend folder:
    ```bash
    cd backend
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-3. Run backend:
+2. Run backend:
    ```bash
    python app.py
 
