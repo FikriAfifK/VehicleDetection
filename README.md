@@ -20,18 +20,18 @@ The system provides:
 ```bash
 backend/
 │── models/
-│ └── best.pt # Trained YOLO model weights
+│ └── best.pt
 │
 │── utils/
-│ ├── config.py # Configuration settings
-│ ├── detection.py # Vehicle detection logic
-│ ├── display.py # Display & visualization utilities
-│ ├── save_to_csv.py # Export detection results to CSV
-│ ├── tracking.py # Object tracking logic
+│ ├── config.py           # Configuration settings
+│ ├── detection.py        # Vehicle detection logic
+│ ├── display.py          # Display & visualization utilities
+│ ├── save_to_csv.py      # Export detection results to CSV
+│ ├── tracking.py         # Object tracking logic
 │ └── view_transformer.py # Perspective/view transformations
 │
-│── app.py # Backend app (Flask/FastAPI API)
-│── main.py # Entry point for backend
+│── app.py                # Backend app (Flask)
+│── main.py
 ```
 
 ### 🎨 Frontend (`/frontend`)
