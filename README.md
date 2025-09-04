@@ -17,6 +17,7 @@ The system provides:
 ## 📂 Project Structure
 
 ### 🔙 Backend (`/backend`)
+```bash
 backend/
 │── models/
 │ └── best.pt # Trained YOLO model weights
@@ -31,8 +32,10 @@ backend/
 │
 │── app.py # Backend app (Flask/FastAPI API)
 │── main.py # Entry point for backend
+```
 
 ### 🎨 Frontend (`/frontend`)
+```bash
 frontend/
 │── public/
 │ ├── index.html
@@ -58,6 +61,7 @@ frontend/
 │ └── ...
 │
 │── package.json # Frontend dependencies
+```
 
 ---
 
